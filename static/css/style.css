@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Red+Hat+Display:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Pacifico&display=swap');
+body{
+overflow-x: hidden;
+background-size: contain;
+
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #fff;
+    background-color: #198754;
+  }  
+.navbar .navbar-nav .nav-link {
+  padding: 0.6em;
+  font-size: 1.2em;
+  transition: all 0.5s;
+  font-family:'Julius Sans One', sans-serif;
+  font-weight: 1000;
+}
+.navbar .navbar-brand {
+  padding: 0 0.6em;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+@media only screen and (min-width: 992px) {
+  .navbar {
+    padding: 0;
+  }
+  .navbar .navbar-nav .nav-link {
+    padding: 1em 0.7em;
+  }
+  .navbar .navbar-brand {
+    padding: 0 0.8em;
+  }
+}
+
+  .img {
+    width:40%;
+    background-size: cover;
+    z-index: 0;
+    margin-top: 10%;
+    margin-left: 3%;
+    margin-right: -10%;
+ }
+    
+    .text{
+    z-index:1;
+   margin-top: -35%;
+   margin-left:30%;
+   
+  
+    }
+    .name{
+        margin-right:10%;
+          text-align: center;
+          font-weight:100;
+          font-family: "Julius Sans One", sans-serif;
+          color:#198754;
+          font-size: 8em;
+    
+      
+         }
+     
+   .catch{
+    font-family: 'Julius Sans One',sans-serif;
+    text-align: center;
+    margin-right:10%;
+    font-size: 2em;
+    font-weight:1000;
+   } 
+  
+ 
+.services{
+    margin-top:20%;
+    
+    
+}   
+
+.offer{
+    font-size:6em;
+
+}
+.banking{
+    margin-top:30%;
+    margin-right:4%;
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: 800;
+}
+.footer{
+    background-color: #276b43;
+    color: rgb(12, 1, 1);
+    padding: 1em;
+    
+}
+.foot{
+    margin-left: 35%;
+}
+.saving{
+    margin-top: 30%;
+ margin-left:40%;
+}
+.sav{
+height:30%;
+width:40%;
+}
+
+
+.c1{
+margin-left:10%;
+margin-bottom: 20%;
+}
+.c2{
+    margin-right:10%;
+    margin-bottom: 20%;
+}
+footer{
+    margin-top: 50%;
+    background-size: contain;
+    
+}
+.contact{
+    font-family: "Julius Sans One", sans-serif;
+    margin-left:-400px;
+
+}
